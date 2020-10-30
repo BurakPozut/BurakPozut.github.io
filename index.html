@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Burak Pozüt</title>
+<style>
+	div.right{
+		float:right;
+		width:500px;
+	}
+
+.btn-group .button{
+	background-color: #000000;
+	border: none;
+	color: white;
+	padding: 20px 35px;
+	text-align: center;
+	text-decloration: none;
+	display: inline-block;
+	font-size: 20px;
+	cursor: pointer;
+	float: left;
+}
+.btn-group .button:hover{
+	background-color: #F30B0B
+}
+
+</style>
+</head>
+
+<body bgcolor="#000000" onload="Hide()">
+
+<h1 style="color:white">Burak Pozüt</h1>
+
+<div class="btn-group">
+	<button class="button" onclick="myHTML()">HTML</button>
+	<button class="button" onclick="myCSS()" >CSS </button>
+</div>
+<br>
+<br>
+<br>
+<br>
+
+
+<p style="color:white">Hi,this is my website</p>
+
+<a href="https://www.instagram.com/burakpzt/?hl=tr" style="color:white">My instagram page</a><br>
+
+<br><img src="img/burak.jpg" alt="Me" width="400" height="500">
+<div class="right">
+<fieldset>
+	<legend style="color:white">Contact Form</legend>
+	<label for="fname" style="color:white"> First name</label><br>
+	<input type="text" id="fname" name="fname"><br>
+	<label for="lname" style="color:white"> Last Name</label><br>
+	<input type="text" id="lname" name="lname"><br>
+	<label for="e-mail" style="color:white"> E-mail</label><br>
+	<input type="text" id="e-mail" name="e-mai">
+		<label style="color:white">*Please enter your e-mail<br>for the communication</labe><br><br>
+	<label style="color:white">Your message</label><br>
+	<textarea name="message" rows="10" cols="30"></textarea><br>
+	<input type="submit" value="submit">
+</fieldset>
+</div>
+
+
+						<!-- HTML -->
+
+<div id="divHTML" style=display:none>
+		<h1 style="color:white">&emsp;&emsp;What is HTML</h1>
+	<p id="p1" style="color:white" >&emsp;HTML is the standard markup language for creating Web pages.<br><br>
+	&emsp;-HTML stands for Hyper Text Markup Language<br>
+	&emsp;-HTML describes the structure of a Web page<br>
+	&emsp;-HTML consists of a series of elements<br>
+	&emsp;-HTML elements tell the browser how to display the content<br>
+	&emsp;-HTML elements are represented by tags<br>
+	&emsp;-HTML tags label pieces of content such as "heading", "paragraph", "table", and so on<br>
+	&emsp;-Browsers do not display the HTML tags, but use them to render the content of the page<br> </p>
+	
+	<h2 style="color:white">&emsp;&emsp;A Simple HTML Code</h2>
+	<p style="color:white">Input:&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+	&emsp;&emsp;&emsp;&emsp;&emsp;		Output:</p>
+	<img src="img/HTMLCode.png"  width="380" height="345">
+	<img src="img/HTMLOut.png"  width="400" height="345">
+	
+	<h2 style="color:white">&emsp;&emsp;DOCTYPE</h2>
+	<p style="color:white">&emsp;We use doctype for showing our html format. It is not a tag but is an information for browser to understnad what type of document type.<br>
+	&emsp;In HTML 5: &#60!DOCTYPE html &#62,but in the older html version is more complcated.</p>
+	
+	
+	<h2 style="color:white">&emsp;&emsp;META</h2>
+	<p style="color:white">&emsp;Meta tag informs the user about it's website.Like what kind of page is that or what informations does it holds etc.<br>
+	We use it like : &#60 meta name = "author" content="İlber Ortaylı"&#62 <br>
+	&#60 meta name ="keywords" content="mp4,mp3,wav"&#62 </p>
+	
+	<h2 style="color:white">&emsp;&emsp;Body</h2>
+	<p style="color:white">&emsp;Body defines the page's body like background etc. like i used a body for giving my site a black background.<br>
+	And body defines the all html documents like paragraph,headings,lists etc.<br>
+	&#60 body bgcolor="#000000" onload="Hide()"&#62 this is the code i use for making my background black.</p>
+	
+	<h2 style="color:white">&emsp;&emsp;Title</h2>
+	<p style="color:white">&emsp;The title defines the title of the site.It is showing in the browser and its gotta be only text mode.And you can't have more than one!<br>
+	And this is my title for this website: &#60 title &#62 Burak Pozüt &#60/title &#62 </p>
+	
+	
+	<h2 style="color:white">&emsp;&emsp;HTML &#60 b &#62 tag</h2>
+	<p style="color:white">&emsp;b tag just makes your font <b>bold</b> just like this.<br>
+	 &#60 p &#62 Normal text -  &#60 b &#62 Bold text &#60 /b &#62. &#60 /p &#62 </p>
+	
+	<h2 style="color:white">&emsp;&emsp; HTML &#60 br &#62 tag </h2>
+	<p style="color:white">&emsp; If you use br tag in the sentence it will go to new line and then start printing on the screen.<br>
+	Ex:&#60 p &#62 line breaks &#60 br &#62 in a text. &#60 /p &#62 </p>
+	
+	<h2 style="color:white">&emsp;&emsp;HTML &#60 p &#62 tag</h2>
+	<p style="color:white">&emsp;p (paragraph) tag just for printing something on the screen<br>
+	Ex:&#60 p &#62 Some letters &#60 /p &#62 </p>
+	
+	<h2 style="color:white">&emsp;&emsp;HTML &#60 i &#62 tag</h2>
+	<p style="color:white">&emsp; i tag means <i>italic</i> just like this.Its that simple.<br>
+	Ex:&#60 p &#62 Some &#60 i &#62 letters &#60 /i &#62 &#60 /p &#62 </p>
+	
+	<h2 style="color:white">&emsp;&emsp;HTML &#60 em &#62 tag</h2>
+	<p style="color:white">&emsp; em tag means <em>italic</em> just like &#60 i &#62 tag.Its that simple.<br>
+	Ex:&#60 p &#62 Some &#60 em &#62 letters &#60 /em &#62 &#60 /p &#62 </p>
+	
+	<h2 style="color:white">&emsp;&emsp;HTML &#60 strong &#62 tag</h2>
+	<p style="color:white">&emsp; strong tag means <strong>bold</strong> just like this.Its that simple.<br>
+	Ex:&#60 p &#62 Some &#60 strong &#62 letters &#60 /strong &#62 &#60 /p &#62 </p>
+	
+	<h2 style="color:white">&emsp;&emsp;HTML &#60 img &#62 tag</h2>
+	<p style="color:white">&emsp; img tag used for importing an image in a html page.You can import your image by writing its folder adress.Or you can do all kinds of thingh with it.<br>
+	If you use css you can specificly choose its location and margins etc.You can even use images from other websites.<br>
+	Ex: I will show you how i put the image above in my website from my computer<br>
+	&#60img src="img/burak.jpg" alt="Me" width="400" height="500" &#62 </p>
+	
+	<h2 style="color:white">&emsp;&emsp;HTML &#60 a &#62 tag</h2>
+	<p style="color:white">&emsp; a tag shortly means hyper link.Let me shoe you how its working,it is very simple<br>
+	Ex: I connected my instagram page to a paragraph like this<br>
+	&#60 a href="https://www.instagram.com/burakpzt/?hl=tr" style="color:white" &#62 My instagram page &#60 /a &#62 </p>
+	
+	
+</div>
+
+
+						<!-- CSS -->
+
+
+<div id="divCSS" style=display:none>
+			<h1 style="color:white">&emsp;&emsp;What is CSS</h1>
+			<p style="color:white">
+			&emsp;-CSS stands for Cascading Style Sheets<br>
+			&emsp;-CSS describes how HTML elements are to be displayed on screen, paper, or in other media<br>
+			&emsp;-CSS saves a lot of work. It can control the layout of multiple web pages all at once<br>
+			&emsp;-External stylesheets are stored in CSS files<br>
+			</p>
+				<h2 style="color:white">&emsp;&emsp;A Simple CSS Code</h2>
+				<p style="color:white">
+				Input:&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+				&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; Output:
+				</p>
+				<img src="img/CSSCode.png" width="487" height="620">
+				<img src="img/CSSOut.png" width="942" height="620">
+				
+				<h2 style="color:white">&emsp;&emsp;CSS Box Model </h2>
+				<p style="color:white">&emsp; You must know this if you want to understand the css. Every elemet in web design is consider as boxes!<br>
+				We write our content in our box but it has other elements than that.Like margin,Border,padding and the content<br>
+				&emsp;-Content: Where we put our content(obviously).<br>
+				&emsp;-Padding: Clears the area between content and border.<br>
+				&emsp;-Border: Just a border(obviously).<br>
+				&emsp;-Margin: Separates the box and the everything.<br>
+				This is the css code i used for my website:<br>
+				.btn-group .button{<br>
+					background-color: #000000;<br>
+					border: none;<br>
+					color: white;<br>
+					padding: 20px 35px;<br>
+					text-align: center;<br>
+					text-decloration: none;<br>
+					display: inline-block;<br>
+					font-size: 20px;<br>
+					cursor: pointer;<br>
+					float: left;<br>
+				}<br>
+				.btn-group .button:hover{<br>
+					background-color: #F30B0B<br>
+				}<br>
+				</p>
+				
+</div>
+<script>
+	function myHTML(){
+	document.getElementById("divCSS").style.display="none";
+	document.getElementById("divHTML").style.display="block";
+	}
+	function myCSS(){
+	document.getElementById("divHTML").style.display="none";
+	document.getElementById("divCSS").style.display="block";
+	}
+	
+</script>
+
+
+
+</body>
+</html>
